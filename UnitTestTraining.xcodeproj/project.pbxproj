@@ -118,6 +118,10 @@
 		17BBD8AB252B159E003535D1 /* APIUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BBD8AA252B159E003535D1 /* APIUrls.swift */; };
 		17BBD8B4252B1950003535D1 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BBD8B2252B1950003535D1 /* ArticleCell.swift */; };
 		17BBD8B5252B1950003535D1 /* ArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BBD8B3252B1950003535D1 /* ArticleCell.xib */; };
+		22DBB62928C45F2A002B85EF /* Excercise5ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DBB62828C45F2A002B85EF /* Excercise5ViewModelTests.swift */; };
+		22DBB62B28C45F42002B85EF /* Excercise5ControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DBB62A28C45F42002B85EF /* Excercise5ControllerTests.swift */; };
+		22DBB62D28C45F56002B85EF /* Excercise5NavigatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DBB62C28C45F56002B85EF /* Excercise5NavigatorMock.swift */; };
+		22DBB62F28C45F69002B85EF /* Exercise5UseCaseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DBB62E28C45F69002B85EF /* Exercise5UseCaseMock.swift */; };
 		22E72C7E28C25CB20020F312 /* Exercise4UseCaseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E72C7D28C25CB20020F312 /* Exercise4UseCaseMock.swift */; };
 		22E72C8028C25CD90020F312 /* Exercise4NavigatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E72C7F28C25CD90020F312 /* Exercise4NavigatorMock.swift */; };
 		22E72C8228C25D030020F312 /* Exercise4ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E72C8128C25D030020F312 /* Exercise4ViewModelTests.swift */; };
@@ -293,6 +297,10 @@
 		17BBD8AA252B159E003535D1 /* APIUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUrls.swift; sourceTree = "<group>"; };
 		17BBD8B2252B1950003535D1 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 		17BBD8B3252B1950003535D1 /* ArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleCell.xib; sourceTree = "<group>"; };
+		22DBB62828C45F2A002B85EF /* Excercise5ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercise5ViewModelTests.swift; sourceTree = "<group>"; };
+		22DBB62A28C45F42002B85EF /* Excercise5ControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercise5ControllerTests.swift; sourceTree = "<group>"; };
+		22DBB62C28C45F56002B85EF /* Excercise5NavigatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercise5NavigatorMock.swift; sourceTree = "<group>"; };
+		22DBB62E28C45F69002B85EF /* Exercise5UseCaseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise5UseCaseMock.swift; sourceTree = "<group>"; };
 		22E72C7D28C25CB20020F312 /* Exercise4UseCaseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise4UseCaseMock.swift; sourceTree = "<group>"; };
 		22E72C7F28C25CD90020F312 /* Exercise4NavigatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise4NavigatorMock.swift; sourceTree = "<group>"; };
 		22E72C8128C25D030020F312 /* Exercise4ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise4ViewModelTests.swift; sourceTree = "<group>"; };
@@ -690,6 +698,7 @@
 		177763ED261E8BE3005CC014 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				22DBB62728C45EF5002B85EF /* Excercise5 */,
 				22E72C7C28C25C940020F312 /* Exercise4 */,
 				177763EE261E8BE3005CC014 /* TestError.swift */,
 				177763EF261E8BE3005CC014 /* App */,
@@ -887,6 +896,17 @@
 				17BBD89B252B101C003535D1 /* APIService.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		22DBB62728C45EF5002B85EF /* Excercise5 */ = {
+			isa = PBXGroup;
+			children = (
+				22DBB62828C45F2A002B85EF /* Excercise5ViewModelTests.swift */,
+				22DBB62A28C45F42002B85EF /* Excercise5ControllerTests.swift */,
+				22DBB62C28C45F56002B85EF /* Excercise5NavigatorMock.swift */,
+				22DBB62E28C45F69002B85EF /* Exercise5UseCaseMock.swift */,
+			);
+			path = Excercise5;
 			sourceTree = "<group>";
 		};
 		22E72C7C28C25C940020F312 /* Exercise4 */ = {
@@ -1278,6 +1298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17776488261E8BE4005CC014 /* GettingExercisesTests.swift in Sources */,
+				22DBB62D28C45F56002B85EF /* Excercise5NavigatorMock.swift in Sources */,
 				1777648A261E8BE4005CC014 /* CalculateFeeTest.swift in Sources */,
 				17776494261E8BE4005CC014 /* ClotherOrderTests.swift in Sources */,
 				17776486261E8BE4005CC014 /* ExerciseGatewayMock.swift in Sources */,
@@ -1286,6 +1307,7 @@
 				17776458261E8BE4005CC014 /* Exercise2ViewModelTests.swift in Sources */,
 				22E72C8028C25CD90020F312 /* Exercise4NavigatorMock.swift in Sources */,
 				1777648B261E8BE4005CC014 /* CaculatingClotherDiscountTest.swift in Sources */,
+				22DBB62F28C45F69002B85EF /* Exercise5UseCaseMock.swift in Sources */,
 				1777647D261E8BE4005CC014 /* MainViewControllerTests.swift in Sources */,
 				1777645F261E8BE4005CC014 /* Exercise3UseCaseMock.swift in Sources */,
 				17776452261E8BE4005CC014 /* AppUseCaseMock.swift in Sources */,
@@ -1294,6 +1316,7 @@
 				1777645C261E8BE4005CC014 /* Exercise3NavigatorMock.swift in Sources */,
 				1777647E261E8BE4005CC014 /* MainUseCaseMock.swift in Sources */,
 				1777645A261E8BE4005CC014 /* Exercise2UseCaseMock.swift in Sources */,
+				22DBB62B28C45F42002B85EF /* Excercise5ControllerTests.swift in Sources */,
 				17776480261E8BE4005CC014 /* MainNavigatorMock.swift in Sources */,
 				1777647C261E8BE4005CC014 /* ExerciseCellTests.swift in Sources */,
 				1777647F261E8BE4005CC014 /* MainViewModelTests.swift in Sources */,
@@ -1302,6 +1325,7 @@
 				22E72C7E28C25CB20020F312 /* Exercise4UseCaseMock.swift in Sources */,
 				17776487261E8BE4005CC014 /* DateGatewayMock.swift in Sources */,
 				1777645B261E8BE4005CC014 /* Exercise2NavigatorMock.swift in Sources */,
+				22DBB62928C45F2A002B85EF /* Excercise5ViewModelTests.swift in Sources */,
 				1777645E261E8BE4005CC014 /* Exercise3ViewModelTests.swift in Sources */,
 				22E72C8228C25D030020F312 /* Exercise4ViewModelTests.swift in Sources */,
 			);
